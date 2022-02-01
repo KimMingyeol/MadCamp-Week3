@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: d05e9763a31a22f48a117d217d4a8643, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: f1902acbc2a204575873d03eb18752ee, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -180,7 +180,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -333,7 +333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e5c685083fc4cf4a4fbbd673d2446f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 
 --- !u!1 &427839457
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,12 +362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d5591d823e34445b367aa4e77d4481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameDataFileName: SaveData.json
-  _gameData:
-    isClear2: 0
-    isClear3: 0
-    isClear4: 0
-    isClear5: 0
 --- !u!4 &427839459
 Transform:
   m_ObjectHideFlags: 0
